@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1562,6 +1562,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2115908528206420804, guid: 4cb9938d1d69b1545bacfe5bc6574167, type: 3}
+      propertyPath: constellationDescription
+      value: "This is Cancer. \n\n- Its name means \u201Cthe crab\u201D in Latin.\r\n-
+        In Greek mythology, the constellation Cancer is associated with the crab
+        sent by Hera to defeat Heracles.\r\n- 30th largest constellation in the sky\r\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 2115908529263479552, guid: 4cb9938d1d69b1545bacfe5bc6574167, type: 3}
       propertyPath: m_Name
       value: Constellation
