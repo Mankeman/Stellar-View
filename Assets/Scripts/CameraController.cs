@@ -16,8 +16,8 @@ public class CameraController : MonoBehaviour
     public int normal = 50;
     public float smooth = 5f;
 
-    //Private variables
-    bool isZoomed = false;
+    [HideInInspector]
+    public bool isZoomed = false;
 
     // Start is called before the first frame update
     void Start()
