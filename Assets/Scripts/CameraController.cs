@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    //Basic mouse components
     [Header("Camera Components")]
     public float mouseSensitivity = 100f;
     public Transform playerBody;
@@ -11,11 +12,13 @@ public class CameraController : MonoBehaviour
     //Private variables
     float xRotation = 0f;
 
+    //Components needed to zoom, values can be changed.
     [Header("Zoom Components")]
     public int zoom = 20;
     public int normal = 50;
     public float smooth = 5f;
 
+    //Don't mess with this in the inspector (Hide in inspector)
     [HideInInspector]
     public bool isZoomed = false;
 

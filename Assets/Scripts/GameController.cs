@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+    //Constellation Details
+    [Header("ConstellationDetails")]
     public Text constellationName;
     public Image constellationImage;
     public Text constellationDescription;
@@ -17,10 +19,11 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void Constellation(string name, Sprite image, string description)
     {
+        //Set the constellation information
         constellationName.text = name;
         constellationImage.sprite = image;
         constellationDescription.text = description;

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Constellation : MonoBehaviour
 {
+    //Details about the constellations
     public string constellationName;
     public Sprite constellationImage;
     [TextAreaAttribute(10, 20)]

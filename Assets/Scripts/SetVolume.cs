@@ -5,6 +5,9 @@ using UnityEngine.Audio;
 
 public class SetVolume : MonoBehaviour
 {
+    //Audio Mixers are used for keeping the respective sounds in their categories
+    //You also need to expose certain parameters for them to be manipulated.
+    [Header("AudioInfo")]
     public AudioMixer musicMixer;
     public AudioMixer effectMixer;
     public string musicExposedParam;
