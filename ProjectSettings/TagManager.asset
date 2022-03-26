@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Star
   - Connection
+  - Undefined
+  - Backpack
   layers:
   - Default
   - TransparentFX

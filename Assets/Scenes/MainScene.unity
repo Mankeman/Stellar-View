@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 33711536cde959b4b9256fd001eba7d2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -851,11 +851,11 @@ GameObject:
   - component: {fileID: 1241738701}
   m_Layer: 5
   m_Name: Backpack
-  m_TagString: Undefined
+  m_TagString: Backpack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1241738701
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1207,6 +1207,7 @@ MonoBehaviour:
   constellationName: {fileID: 2039530124}
   constellationImage: {fileID: 253178342}
   constellationDescription: {fileID: 2070028125}
+  backpack: {fileID: 0}
 --- !u!4 &1735522377
 Transform:
   m_ObjectHideFlags: 0
@@ -1546,7 +1547,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "- Its name means \u201Cthe crab\u201D in Latin.\r\n- In Greek mythology,
+    the constellation Cancer is associated with the crab sent by Hera to defeat Heracles.\r\n-
+    30th largest constellation in the sky\r"
 --- !u!222 &2070028126
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -10,15 +10,23 @@ public class GameController : MonoBehaviour
     public Text constellationName;
     public Image constellationImage;
     public Text constellationDescription;
+
+    public GameObject backpack;
     // Start is called before the first frame update
     void Start()
     {
-        
+        backpack = GameObject.FindGameObjectWithTag("Backpack");
+        backpack.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.I))
+            backpack.SetActive(true);
+
+        else if (Input.GetKeyUp(KeyCode.I))
+            backpack.SetActive(false);
 
     }
     public void Constellation(string name, Sprite image, string description)
