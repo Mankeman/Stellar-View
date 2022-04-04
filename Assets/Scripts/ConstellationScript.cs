@@ -37,7 +37,7 @@ public class ConstellationScript : MonoBehaviour
         bool starHit = Physics.Raycast(ray, out RaycastHit raycastHit);
 
         //if the player is zoomed, we hit a star and it's a part of a constellation
-        if (playerCamScript.isZoomed && starHit && raycastHit.collider.gameObject.name == "Constellation")
+        if (playerCamScript.isZoomed && starHit && raycastHit.collider.gameObject.tag == "Star")
         {
             //Make the lines active and show them to the player.
             GameObject childConnections = raycastHit.collider.transform.GetChild(0).gameObject;
@@ -49,7 +49,7 @@ public class ConstellationScript : MonoBehaviour
             backpack.SetActive(true);
         }
         //if player isn't zoomed but a star was hit and it's part of a constellation
-        else if (!playerCamScript.isZoomed && starHit && raycastHit.collider.gameObject.name == "Constellation")
+        else if (!playerCamScript.isZoomed && starHit && raycastHit.collider.gameObject.tag == "Star")
         {
             //Turn off the lines
             GameObject childConnections = raycastHit.collider.transform.GetChild(0).gameObject;

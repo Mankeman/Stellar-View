@@ -812,7 +812,7 @@ GameObject:
   - component: {fileID: 2115908529263479553}
   - component: {fileID: 2115908529263479554}
   m_Layer: 0
-  m_Name: Constellation
+  m_Name: Cancer
   m_TagString: Star
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
