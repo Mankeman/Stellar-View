@@ -1355,7 +1355,6 @@ Transform:
   - {fileID: 229174686}
   - {fileID: 1570473459}
   - {fileID: 558854130}
-  - {fileID: 1999451777}
   - {fileID: 852371447}
   - {fileID: 321224794}
   - {fileID: 1323976700}
@@ -1663,7 +1662,7 @@ Transform:
   m_LocalScale: {x: -0.2149, y: 3.5095735, z: -0.0025}
   m_Children: []
   m_Father: {fileID: 243459204}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0.022, y: -0.066, z: 147.02}
 --- !u!136 &321224795
 CapsuleCollider:
@@ -1921,7 +1920,7 @@ Transform:
   m_LocalScale: {x: 0.49562505, y: 1.8800842, z: 0.5179}
   m_Children: []
   m_Father: {fileID: 243459204}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 3.087, y: 26.841, z: -184.336}
 --- !u!136 &413029796
 CapsuleCollider:
@@ -2748,7 +2747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &587584266
 Transform:
   m_ObjectHideFlags: 0
@@ -4732,7 +4731,7 @@ Transform:
   m_LocalScale: {x: -0.1779415, y: 6.723951, z: 0.4565277}
   m_Children: []
   m_Father: {fileID: 243459204}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -7.852, y: 40.145, z: 152.739}
 --- !u!136 &852371448
 CapsuleCollider:
@@ -5817,7 +5816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constellationName: Sagittarius
-  constellationImage: {fileID: 21300000, guid: 77029af58aec81c488e86d54f8dcf2d5, type: 3}
+  constellationImage: {fileID: 21300000, guid: 65fe0e245a08fb240a9a66cee4884afa, type: 3}
   constellationDescription: "This is Sagittarius. \n\n- lies in the southern sky\r\n-
     usually depicted as a centaur holding a bow and arrow\n- associated with Crotus,
     the satyr who kept company of the Muses on Mount Helicon\r\n\n\n"
@@ -6712,6 +6711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1224689838}
+  - component: {fileID: 1224689839}
   m_Layer: 0
   m_Name: Aquarius
   m_TagString: Star
@@ -6726,8 +6726,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224689837}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.9, y: 68.6592, z: 204.9}
+  m_LocalRotation: {x: -0.06587719, y: -0.23604193, z: 0.260621, w: 0.9338207}
+  m_LocalPosition: {x: -97.5, y: 92.5, z: 186.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 587584266}
@@ -6747,7 +6747,20 @@ Transform:
   - {fileID: 1851722364}
   m_Father: {fileID: 0}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -28.371, z: 31.188}
+--- !u!65 &1224689839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224689837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 31.799217, y: 35.890747, z: 31.807083}
+  m_Center: {x: 50.515247, y: -1.6315689, z: -70.84464}
 --- !u!1 &1229174447
 GameObject:
   m_ObjectHideFlags: 0
@@ -6779,7 +6792,7 @@ Transform:
   m_LocalScale: {x: -0.15724662, y: 2.5384257, z: 0.73172}
   m_Children: []
   m_Father: {fileID: 243459204}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0.023, y: -0.067, z: -78.082}
 --- !u!136 &1229174449
 CapsuleCollider:
@@ -7202,7 +7215,7 @@ Transform:
   m_LocalScale: {x: -0.2149, y: 4.6586795, z: 0.7632}
   m_Children: []
   m_Father: {fileID: 243459204}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 3.554, y: 7.365, z: 1.731}
 --- !u!136 &1251108716
 CapsuleCollider:
@@ -7938,7 +7951,7 @@ Transform:
   m_LocalScale: {x: -0.2149, y: 2.2945771, z: 0.7632}
   m_Children: []
   m_Father: {fileID: 243459204}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 5.007, y: 16.514, z: 20.98}
 --- !u!136 &1323976701
 CapsuleCollider:
@@ -8623,7 +8636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constellationName: Capricorn
-  constellationImage: {fileID: 21300000, guid: 77029af58aec81c488e86d54f8dcf2d5, type: 3}
+  constellationImage: {fileID: 21300000, guid: f9c0a6922e12710499d00d0df893c93b, type: 3}
   constellationDescription: "This is Capricorn. \n\n- lies in the southern sky\r\n-
     Its name means \u201Cthe goat\u201D in Latin\n- 40th biggest constellation in
     the sky\n\n\n"
@@ -9343,7 +9356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constellationName: Aquarius
-  constellationImage: {fileID: 21300000, guid: 77029af58aec81c488e86d54f8dcf2d5, type: 3}
+  constellationImage: {fileID: 21300000, guid: 41f5e73857befbe4daed05f7369d8d00, type: 3}
   constellationDescription: "This is Aquarius. \n\n- lies in the region of the sky
     which is sometimes referred to as the Sea\r\n- contains the famous supergiant
     stars Sadalsuud (Beta Aquarii) and Sadalmelik (Alpha Aquarii)\r\n- 10th largest
@@ -11203,6 +11216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1729529970}
+  - component: {fileID: 1729529971}
   m_Layer: 0
   m_Name: Saggitarius
   m_TagString: Star
@@ -11248,6 +11262,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 47, z: 0}
+--- !u!65 &1729529971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729529969}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.947197, y: 36.527134, z: 46.564182}
+  m_Center: {x: 49.34484, y: 3.8075619, z: -73.09405}
 --- !u!1 &1735522375
 GameObject:
   m_ObjectHideFlags: 0
@@ -11304,6 +11331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1759957587}
+  - component: {fileID: 1759957588}
   m_Layer: 0
   m_Name: Capricorn
   m_TagString: Star
@@ -11338,6 +11366,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0.08, y: 13.23, z: 0.52}
+--- !u!65 &1759957588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759957586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 36.33171, y: 44.535828, z: 23.3318}
+  m_Center: {x: 42.430428, y: 7.1345873, z: -68.314026}
 --- !u!1001 &1776381618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12496,102 +12537,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947342330}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1999451776
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1999451777}
-  - component: {fileID: 1999451780}
-  - component: {fileID: 1999451779}
-  - component: {fileID: 1999451778}
-  m_Layer: 0
-  m_Name: Cylinder (10)
-  m_TagString: Connection
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1999451777
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999451776}
-  m_LocalRotation: {x: 0.000000038882707, y: 0.00000010849905, z: -0.9657801, w: -0.25936222}
-  m_LocalPosition: {x: -15.1, y: 19.8, z: 98.6}
-  m_LocalScale: {x: 0.3936006, y: 3.8509576, z: 1.5744022}
-  m_Children: []
-  m_Father: {fileID: 243459204}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -210.064}
---- !u!136 &1999451778
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999451776}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!23 &1999451779
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999451776}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 2b3bd2d84de043b4c9e2f02ca4e08468, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1999451780
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999451776}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2009435743
 GameObject:
   m_ObjectHideFlags: 0
