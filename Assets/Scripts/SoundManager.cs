@@ -21,7 +21,8 @@ public class SoundManager : MonoBehaviour
         }
 
     }
-     public void ChangeMasterVolume(float value) {
-            AudioListener.volume = value;
-        }
+    public void ChangeMasterVolume(float value)
+    {
+        AudioListener.volume = value;
+    }
 }
