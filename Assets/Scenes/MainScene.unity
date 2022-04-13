@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 363451168}
-  speed: 5
+  speed: 20
 --- !u!1001 &442460579
 PrefabInstance:
   m_ObjectHideFlags: 0
