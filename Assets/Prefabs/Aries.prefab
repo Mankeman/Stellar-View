@@ -192,8 +192,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 13.457077, y: 9.80201, z: 1}
-  m_Center: {x: -2.4230423, y: -3.486206, z: 0}
+  m_Size: {x: 15.388043, y: 9.80201, z: 1}
+  m_Center: {x: -1.7472034, y: -3.486206, z: 0}
 --- !u!1 &555670317430910149
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +240,7 @@ MonoBehaviour:
   constellationName: Aries
   constellationImage: {fileID: 21300000, guid: a4cc15757c683254db246ed850768935, type: 3}
   constellationDescription: "This is Aries\n\n- Symbolized by a ram\u2019s horn\r\n-
-    Aries is the 39th largest constellation in the sky\r\n"
+    Aries is the 39th largest constellation in the sky\r"
 --- !u!1 &555670318647058206
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +284,6 @@ GameObject:
   - component: {fileID: 555670318675001400}
   - component: {fileID: 555670318675001381}
   - component: {fileID: 555670318675001382}
-  - component: {fileID: 555670318675001383}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Connection
@@ -355,20 +354,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &555670318675001383
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555670318675001401}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &1034870717792188100
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +365,6 @@ GameObject:
   - component: {fileID: 4245923415338596807}
   - component: {fileID: 6356928804338750980}
   - component: {fileID: 8312410402844281237}
-  - component: {fileID: 8224036141025288826}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Connection
@@ -451,20 +435,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8224036141025288826
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034870717792188100}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &1730663936463418941
 GameObject:
   m_ObjectHideFlags: 0
